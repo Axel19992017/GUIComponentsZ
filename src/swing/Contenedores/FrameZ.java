@@ -26,6 +26,8 @@ public class FrameZ extends JFrame {
     public FrameZ() {
         initComponents();
     }
+    
+   
 
     public FrameZ(String title) {
         this.title = title;
@@ -62,6 +64,7 @@ public class FrameZ extends JFrame {
         bMinimizar = new javax.swing.JButton();
         pContent = new javax.swing.JPanel();
 
+        setUndecorated(true);
         addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowOpened(java.awt.event.WindowEvent evt) {
                 formWindowOpened(evt);
