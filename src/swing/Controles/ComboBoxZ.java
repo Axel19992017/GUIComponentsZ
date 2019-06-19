@@ -31,18 +31,8 @@ public class ComboBoxZ extends JComboBox {
 
         setBackground(new java.awt.Color(0, 102, 102));
         setForeground(new java.awt.Color(255, 255, 255));
-        setMaximumRowCount(20);
-        setBorder(javax.swing.BorderFactory.createTitledBorder(null, "SAMPLE", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Dialog", 0, 11), new java.awt.Color(255, 255, 255))); // NOI18N
-        addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                formActionPerformed(evt);
-            }
-        });
+        setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
     }// </editor-fold>//GEN-END:initComponents
-
-    private void formActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_formActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_formActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
