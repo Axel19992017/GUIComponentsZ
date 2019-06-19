@@ -29,10 +29,8 @@ public class PanelZ extends JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
-
-        setBackground(new java.awt.Color(0, 0, 255));
-        setBorder(javax.swing.BorderFactory.createTitledBorder("xddddddddddddddd"));
+        setBackground(new java.awt.Color(51, 153, 255));
+        setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 formMouseEntered(evt);
@@ -42,22 +40,17 @@ public class PanelZ extends JPanel {
             }
         });
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel1.setBackground(new java.awt.Color(102, 102, 255));
-        jLabel1.setText("ZUUUUUUUUUUURDO");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(183, 5, 120, 100));
     }// </editor-fold>//GEN-END:initComponents
 
     private void formMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_formMouseEntered
-        jLabel1.setText("aiudaaaaaaaaa");
+       
     }//GEN-LAST:event_formMouseEntered
 
     private void formMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_formMouseExited
-        jLabel1.setText(">:v");
+        
     }//GEN-LAST:event_formMouseExited
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }
