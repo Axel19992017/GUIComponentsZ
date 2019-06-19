@@ -162,6 +162,7 @@ public class FrameZ extends JFrame {
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         getContentPane().add(pToolBar, gridBagConstraints);
 
+        pContent.setBackground(new java.awt.Color(0, 51, 102));
         pContent.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(0, 102, 204)));
 
         javax.swing.GroupLayout pContentLayout = new javax.swing.GroupLayout(pContent);
