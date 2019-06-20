@@ -3,20 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package swing.Controles;
+package swing.Contenedores;
 
-import javax.swing.JComboBox;
+import javax.swing.JInternalFrame;
 
 /**
  *
- * @author Dell Inspiron
+ * @author admin
  */
-public class ComboBoxZ extends JComboBox {
+public class InternalFrameZ extends JInternalFrame {
 
     /**
-     * Creates new form ComboBoxZ
+     * Creates new form InternalFrameZ
      */
-    public ComboBoxZ() {
+    public InternalFrameZ() {
         initComponents();
     }
 
@@ -29,9 +29,11 @@ public class ComboBoxZ extends JComboBox {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setBackground(new java.awt.Color(0, 102, 102));
-        setForeground(new java.awt.Color(255, 255, 255));
-        setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        setBackground(new java.awt.Color(0, 51, 102));
+        setClosable(true);
+        setMaximizable(true);
+        setResizable(true);
+        setVisible(true);
     }// </editor-fold>//GEN-END:initComponents
 
 

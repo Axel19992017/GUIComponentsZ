@@ -5,18 +5,18 @@
  */
 package swing.Controles;
 
-import javax.swing.JComboBox;
+import javax.swing.JTextPane;
 
 /**
  *
  * @author Dell Inspiron
  */
-public class ComboBoxZ extends JComboBox {
+public class TextPaneZ extends JTextPane {
 
     /**
-     * Creates new form ComboBoxZ
+     * Creates new form TextPaneZ
      */
-    public ComboBoxZ() {
+    public TextPaneZ() {
         initComponents();
     }
 
@@ -30,8 +30,10 @@ public class ComboBoxZ extends JComboBox {
     private void initComponents() {
 
         setBackground(new java.awt.Color(0, 102, 102));
-        setForeground(new java.awt.Color(255, 255, 255));
         setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        setForeground(new java.awt.Color(0, 0, 0));
+        setText("SAMPLE SAMPLE SAMPLE\nSAMPLE SAMPLE\nSAMPLE\n");
     }// </editor-fold>//GEN-END:initComponents
 
 

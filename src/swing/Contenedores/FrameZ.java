@@ -55,27 +55,14 @@ public class FrameZ extends JFrame {
     private void initComponents() {
         java.awt.GridBagConstraints gridBagConstraints;
 
-        pContent = new javax.swing.JPanel();
         pToolBar = new javax.swing.JPanel();
         lTitle = new javax.swing.JLabel();
         bCerrar = new javax.swing.JButton();
         bMaximizar = new javax.swing.JButton();
         bMinimizar = new javax.swing.JButton();
+        pContent = new javax.swing.JPanel();
 
-        pContent.setBackground(new java.awt.Color(0, 51, 102));
-        pContent.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(0, 102, 204)));
-
-        javax.swing.GroupLayout pContentLayout = new javax.swing.GroupLayout(pContent);
-        pContent.setLayout(pContentLayout);
-        pContentLayout.setHorizontalGroup(
-            pContentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 398, Short.MAX_VALUE)
-        );
-        pContentLayout.setVerticalGroup(
-            pContentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 281, Short.MAX_VALUE)
-        );
-
+        setUndecorated(true);
         addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowOpened(java.awt.event.WindowEvent evt) {
                 formWindowOpened(evt);
@@ -104,6 +91,7 @@ public class FrameZ extends JFrame {
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
         gridBagConstraints.weightx = 1.0;
         gridBagConstraints.weighty = 1.0;
+        gridBagConstraints.insets = new java.awt.Insets(0, 3, 0, 3);
         pToolBar.add(lTitle, gridBagConstraints);
 
         bCerrar.setBackground(new java.awt.Color(0, 102, 255));
@@ -172,9 +160,29 @@ public class FrameZ extends JFrame {
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
-        gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
         getContentPane().add(pToolBar, gridBagConstraints);
+
+        pContent.setBackground(new java.awt.Color(0, 51, 102));
+
+        javax.swing.GroupLayout pContentLayout = new javax.swing.GroupLayout(pContent);
+        pContent.setLayout(pContentLayout);
+        pContentLayout.setHorizontalGroup(
+            pContentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 400, Short.MAX_VALUE)
+        );
+        pContentLayout.setVerticalGroup(
+            pContentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 284, Short.MAX_VALUE)
+        );
+
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        gridBagConstraints.weightx = 0.5;
+        gridBagConstraints.weighty = 0.5;
+        getContentPane().add(pContent, gridBagConstraints);
     }// </editor-fold>//GEN-END:initComponents
 
     private void bCerrarMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bCerrarMouseExited
@@ -251,7 +259,16 @@ public class FrameZ extends JFrame {
         lTitle.setText(title);
     }//GEN-LAST:event_formWindowOpened
 
-
+    public static void main(String[] args) {
+                /* Create and display the form */
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                FrameZ prueba = new FrameZ("Axel García");
+                prueba.setSize(600, 700);
+                prueba.setVisible(true);
+            }
+        });
+    }
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton bCerrar;
     private javax.swing.JButton bMaximizar;

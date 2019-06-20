@@ -5,18 +5,18 @@
  */
 package swing.Controles;
 
-import javax.swing.JComboBox;
+import javax.swing.JScrollBar;
 
 /**
  *
  * @author Dell Inspiron
  */
-public class ComboBoxZ extends JComboBox {
+public class ScrollBarZ extends JScrollBar {
 
     /**
-     * Creates new form ComboBoxZ
+     * Creates new form ScrollBarZ
      */
-    public ComboBoxZ() {
+    public ScrollBarZ() {
         initComponents();
     }
 
@@ -30,7 +30,7 @@ public class ComboBoxZ extends JComboBox {
     private void initComponents() {
 
         setBackground(new java.awt.Color(0, 102, 102));
-        setForeground(new java.awt.Color(255, 255, 255));
+        setForeground(new java.awt.Color(0, 0, 102));
         setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
     }// </editor-fold>//GEN-END:initComponents
 

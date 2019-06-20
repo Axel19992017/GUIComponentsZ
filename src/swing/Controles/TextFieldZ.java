@@ -5,18 +5,18 @@
  */
 package swing.Controles;
 
-import javax.swing.JComboBox;
+import javax.swing.JTextField;
 
 /**
  *
  * @author Dell Inspiron
  */
-public class ComboBoxZ extends JComboBox {
+public class TextFieldZ extends JTextField {
 
     /**
-     * Creates new form ComboBoxZ
+     * Creates new form TextFieldZ
      */
-    public ComboBoxZ() {
+    public TextFieldZ() {
         initComponents();
     }
 
@@ -29,10 +29,19 @@ public class ComboBoxZ extends JComboBox {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setBackground(new java.awt.Color(0, 102, 102));
+        setBackground(new java.awt.Color(0, 51, 102));
         setForeground(new java.awt.Color(255, 255, 255));
-        setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        setText("SAMPLE");
+        addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                formActionPerformed(evt);
+            }
+        });
     }// </editor-fold>//GEN-END:initComponents
+
+    private void formActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_formActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_formActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

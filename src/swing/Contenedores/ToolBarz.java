@@ -3,23 +3,25 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package swing.Controles;
+package swing.Contenedores;
 
-import javax.swing.JComboBox;
+import java.awt.Color;
+import javax.swing.JButton;
+import javax.swing.JToolBar;
 
 /**
  *
- * @author Dell Inspiron
+ * @author admin
  */
-public class ComboBoxZ extends JComboBox {
+public class ToolBarz extends JToolBar {
 
     /**
-     * Creates new form ComboBoxZ
+     * Creates new form ToolBarz
      */
-    public ComboBoxZ() {
+    public ToolBarz() {
         initComponents();
     }
-
+    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -29,12 +31,19 @@ public class ComboBoxZ extends JComboBox {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setBackground(new java.awt.Color(0, 102, 102));
-        setForeground(new java.awt.Color(255, 255, 255));
-        setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        setBackground(new java.awt.Color(0, 51, 102));
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     // End of variables declaration//GEN-END:variables
+
+    private void botonEnfoque(JButton boton) {
+       boton.setBackground(new Color(132,132,241));
+       boton.setForeground(new Color(0, 0, 0));
+    }
+    private void botonDesenfoque(JButton boton){
+       boton.setBackground(new Color(0,51,102));
+       boton.setForeground(new Color(255, 255, 255)); 
+    }
 }

@@ -5,19 +5,25 @@
  */
 package swing.Controles;
 
-import javax.swing.JComboBox;
+import javax.swing.JTable;
 
 /**
  *
  * @author Dell Inspiron
  */
-public class ComboBoxZ extends JComboBox {
+public class TableZ extends JTable {
 
     /**
-     * Creates new form ComboBoxZ
+     * Creates new form TableZ
      */
-    public ComboBoxZ() {
+    public TableZ() {
         initComponents();
+        
+    }
+    
+    @Override
+    public boolean isCellEditable(int rowIndex,int colIndex){
+        return false;
     }
 
     /**
@@ -29,9 +35,21 @@ public class ComboBoxZ extends JComboBox {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setBackground(new java.awt.Color(0, 102, 102));
-        setForeground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(0, 51, 102));
         setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        setForeground(new java.awt.Color(255, 255, 255));
+        setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {},
+                {},
+                {},
+                {}
+            },
+            new String [] {
+
+            }
+        ));
+        setGridColor(new java.awt.Color(204, 204, 255));
     }// </editor-fold>//GEN-END:initComponents
 
 

@@ -5,18 +5,18 @@
  */
 package swing.Controles;
 
-import javax.swing.JComboBox;
+import javax.swing.JSpinner;
 
 /**
  *
  * @author Dell Inspiron
  */
-public class ComboBoxZ extends JComboBox {
+public class SpinnerZ extends JSpinner {
 
     /**
-     * Creates new form ComboBoxZ
+     * Creates new form SpinnerZ
      */
-    public ComboBoxZ() {
+    public SpinnerZ() {
         initComponents();
     }
 
@@ -29,8 +29,7 @@ public class ComboBoxZ extends JComboBox {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setBackground(new java.awt.Color(0, 102, 102));
-        setForeground(new java.awt.Color(255, 255, 255));
+        setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
         setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
     }// </editor-fold>//GEN-END:initComponents
 

@@ -5,18 +5,18 @@
  */
 package swing.Controles;
 
-import javax.swing.JComboBox;
+import javax.swing.JTextArea;
 
 /**
  *
  * @author Dell Inspiron
  */
-public class ComboBoxZ extends JComboBox {
+public class TextAreaZ extends JTextArea {
 
     /**
-     * Creates new form ComboBoxZ
+     * Creates new form TextAreaZ
      */
-    public ComboBoxZ() {
+    public TextAreaZ() {
         initComponents();
     }
 
@@ -29,9 +29,10 @@ public class ComboBoxZ extends JComboBox {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setBackground(new java.awt.Color(0, 102, 102));
+        setBackground(new java.awt.Color(0, 51, 102));
         setForeground(new java.awt.Color(255, 255, 255));
-        setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        setText("SAMPLE");
+        setToolTipText("");
     }// </editor-fold>//GEN-END:initComponents
 
 
