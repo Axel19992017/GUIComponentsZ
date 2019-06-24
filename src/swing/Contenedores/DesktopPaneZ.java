@@ -5,6 +5,8 @@
  */
 package swing.Contenedores;
 
+import java.awt.Graphics;
+import java.awt.Image;
 import javax.swing.JDesktopPane;
 
 /**
@@ -12,7 +14,7 @@ import javax.swing.JDesktopPane;
  * @author admin
  */
 public class DesktopPaneZ extends JDesktopPane {
-
+    Image imagenfondo;
     /**
      * Creates new form DesktopPaneZ
      */
@@ -20,6 +22,27 @@ public class DesktopPaneZ extends JDesktopPane {
         initComponents();
     }
 
+    public Image getImagenfondo() {
+        return imagenfondo;
+    }
+
+    public void setImagenfondo(Image imagenfondo) {
+        this.imagenfondo = imagenfondo;
+        repaint();
+    }
+
+    @Override
+    public void paint(Graphics grphcs) {
+        if(imagenfondo != null){
+            grphcs.drawImage(imagenfondo, 0, 0, getWidth(), getHeight(),this);
+            setOpaque(false);
+        }else{
+            setOpaque(true);
+        }
+        super.paint(grphcs); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
