@@ -29,10 +29,10 @@ public class TextPaneZ extends JTextPane {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setBackground(new java.awt.Color(0, 102, 102));
+        setBackground(new java.awt.Color(127, 179, 213));
         setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
-        setForeground(new java.awt.Color(0, 0, 0));
+        setForeground(new java.awt.Color(28, 40, 51));
         setText("SAMPLE SAMPLE SAMPLE\nSAMPLE SAMPLE\nSAMPLE\n");
     }// </editor-fold>//GEN-END:initComponents
 

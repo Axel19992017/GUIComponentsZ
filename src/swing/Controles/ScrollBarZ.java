@@ -29,8 +29,8 @@ public class ScrollBarZ extends JScrollBar {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setBackground(new java.awt.Color(0, 102, 102));
-        setForeground(new java.awt.Color(0, 0, 102));
+        setBackground(new java.awt.Color(127, 179, 213));
+        setForeground(new java.awt.Color(28, 40, 51));
         setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
     }// </editor-fold>//GEN-END:initComponents
 

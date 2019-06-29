@@ -28,9 +28,9 @@ public class ListZ extends JList {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setBackground(new java.awt.Color(153, 153, 255));
+        setBackground(new java.awt.Color(127, 179, 213));
         setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.LOWERED, null, new java.awt.Color(0, 153, 255), null, null));
-        setForeground(new java.awt.Color(0, 0, 0));
+        setForeground(new java.awt.Color(28, 40, 51));
         setModel(new javax.swing.AbstractListModel() {
             String[] strings = { "SAMPLE1", "SAMPLE2", "SAMPLE3", "SAMPLE4" };
             public int getSize() { return strings.length; }

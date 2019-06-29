@@ -35,9 +35,9 @@ public class TableZ extends JTable {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setBackground(new java.awt.Color(0, 51, 102));
+        setBackground(new java.awt.Color(127, 179, 213));
         setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        setForeground(new java.awt.Color(255, 255, 255));
+        setForeground(new java.awt.Color(28, 40, 51));
         setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {},
