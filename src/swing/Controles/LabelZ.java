@@ -29,7 +29,7 @@ public class LabelZ extends JLabel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setBackground(new java.awt.Color(127, 179, 213));
+        setBackground(new java.awt.Color(255, 247, 162));
         setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
         setForeground(new java.awt.Color(28, 40, 51));
         setText("SAMPLE");

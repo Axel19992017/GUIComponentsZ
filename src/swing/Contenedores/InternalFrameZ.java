@@ -29,7 +29,7 @@ public class InternalFrameZ extends JInternalFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setBackground(new java.awt.Color(127, 179, 213));
+        setBackground(new java.awt.Color(255, 247, 162));
         setClosable(true);
         setMaximizable(true);
         setResizable(true);

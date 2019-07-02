@@ -84,6 +84,7 @@ public class FrameZ extends JFrame {
         });
         pToolBar.setLayout(new java.awt.GridBagLayout());
 
+        lTitle.setForeground(new java.awt.Color(29, 32, 98));
         lTitle.setText("Texto");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
@@ -163,7 +164,7 @@ public class FrameZ extends JFrame {
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
         getContentPane().add(pToolBar, gridBagConstraints);
 
-        pContent.setBackground(new java.awt.Color(0, 51, 102));
+        pContent.setBackground(new java.awt.Color(255, 247, 162));
 
         javax.swing.GroupLayout pContentLayout = new javax.swing.GroupLayout(pContent);
         pContent.setLayout(pContentLayout);

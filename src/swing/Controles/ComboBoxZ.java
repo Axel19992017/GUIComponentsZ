@@ -29,7 +29,7 @@ public class ComboBoxZ extends JComboBox {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setBackground(new java.awt.Color(22, 160, 133));
+        setBackground(new java.awt.Color(255, 247, 162));
         setForeground(new java.awt.Color(28, 40, 51));
         setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
     }// </editor-fold>//GEN-END:initComponents

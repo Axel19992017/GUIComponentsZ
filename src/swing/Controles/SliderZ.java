@@ -29,8 +29,8 @@ public class SliderZ extends JSlider {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setBackground(new java.awt.Color(51, 51, 255));
-        setForeground(new java.awt.Color(28, 40, 51));
+        setBackground(new java.awt.Color(255, 247, 162));
+        setForeground(new java.awt.Color(29, 32, 98));
         setPaintLabels(true);
         setPaintTicks(true);
         setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));

@@ -32,6 +32,7 @@ public class ToolBarz extends JToolBar {
     private void initComponents() {
 
         setBackground(new java.awt.Color(127, 179, 213));
+        setForeground(new java.awt.Color(29, 32, 98));
     }// </editor-fold>//GEN-END:initComponents
 
 

@@ -29,9 +29,9 @@ public class ToggleButtonZ extends JToggleButton {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setBackground(new java.awt.Color(22, 160, 133));
+        setBackground(new java.awt.Color(29, 32, 98));
         setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
-        setForeground(new java.awt.Color(28, 40, 51));
+        setForeground(new java.awt.Color(255, 247, 162));
         setText("SAMPLE");
         setToolTipText("");
         setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));

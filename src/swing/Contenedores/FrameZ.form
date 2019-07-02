@@ -52,6 +52,9 @@
       <SubComponents>
         <Component class="javax.swing.JLabel" name="lTitle">
           <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="62" green="20" red="1d" type="rgb"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Texto"/>
           </Properties>
           <Constraints>
@@ -119,7 +122,7 @@
     <Container class="javax.swing.JPanel" name="pContent">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="66" green="33" red="0" type="rgb"/>
+          <Color blue="a2" green="f7" red="ff" type="rgb"/>
         </Property>
       </Properties>
       <Constraints>

@@ -29,9 +29,9 @@ public class TabbedPaneZ extends JTabbedPane {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setBackground(new java.awt.Color(127, 179, 213));
+        setBackground(new java.awt.Color(255, 247, 162));
         setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        setForeground(new java.awt.Color(28, 40, 51));
+        setForeground(new java.awt.Color(29, 32, 98));
     }// </editor-fold>//GEN-END:initComponents
 
 

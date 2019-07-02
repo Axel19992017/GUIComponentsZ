@@ -29,9 +29,9 @@ public class CheckBoxZ extends JCheckBox {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setBackground(new java.awt.Color(127, 179, 213));
+        setBackground(new java.awt.Color(255, 247, 162));
         setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
-        setForeground(new java.awt.Color(28, 40, 51));
+        setForeground(new java.awt.Color(29, 32, 98));
         setText("SAMPLE");
         addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
