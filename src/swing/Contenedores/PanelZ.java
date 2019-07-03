@@ -5,6 +5,8 @@
  */
 package swing.Contenedores;
 
+import java.awt.Graphics;
+import java.awt.Image;
 import javax.swing.JPanel;
 
 /**
@@ -13,11 +15,33 @@ import javax.swing.JPanel;
  */
 public class PanelZ extends JPanel {
 
+    Image imagenfondo;
+
     /**
      * Creates new form PanelZ
      */
     public PanelZ() {
         initComponents();
+    }
+
+    public Image getImagenfondo() {
+        return imagenfondo;
+    }
+
+    public void setImagenfondo(Image imagenfondo) {
+        this.imagenfondo = imagenfondo;
+        repaint();
+    }
+
+    @Override
+    public void paint(Graphics grphcs) {
+        if (imagenfondo != null) {
+            grphcs.drawImage(imagenfondo, 0, 0, getWidth(), getHeight(), this);
+            setOpaque(false);
+        } else {
+            setOpaque(true);
+        }
+        super.paint(grphcs); //To change body of generated methods, choose Tools | Templates.
     }
 
     /**
@@ -44,11 +68,11 @@ public class PanelZ extends JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void formMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_formMouseEntered
-       
+
     }//GEN-LAST:event_formMouseEntered
 
     private void formMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_formMouseExited
-        
+
     }//GEN-LAST:event_formMouseExited
 
 
