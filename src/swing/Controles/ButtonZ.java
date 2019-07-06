@@ -5,6 +5,7 @@
  */
 package swing.Controles;
 
+import java.awt.Color;
 import javax.swing.JButton;
 
 /**
@@ -29,14 +30,22 @@ public class ButtonZ extends JButton {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setBackground(new java.awt.Color(29, 32, 98));
+        setBackground(new java.awt.Color(10, 13, 67));
         setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
         setForeground(new java.awt.Color(255, 247, 162));
-        setText("SAMPLE");
+        setText("Sample");
         setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setMaximumSize(new java.awt.Dimension(75, 19));
         setPreferredSize(new java.awt.Dimension(75, 19));
+        addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                formMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                formMouseExited(evt);
+            }
+        });
         addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 formActionPerformed(evt);
@@ -48,6 +57,13 @@ public class ButtonZ extends JButton {
         // TODO add your handling code here:
     }//GEN-LAST:event_formActionPerformed
 
+    private void formMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_formMouseEntered
+        this.setBackground(new Color(29, 32, 98));
+    }//GEN-LAST:event_formMouseEntered
+
+    private void formMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_formMouseExited
+        this.setBackground(new Color(10, 13, 67));
+    }//GEN-LAST:event_formMouseExited
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     // End of variables declaration//GEN-END:variables
