@@ -6,6 +6,8 @@
 package swing.Controles;
 
 import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.Image;
 import javax.swing.JButton;
 
 /**
@@ -14,11 +16,22 @@ import javax.swing.JButton;
  */
 public class ButtonZ extends JButton {
 
+    Image fondo;
+
     /**
      * Creates new form ButtonZ
      */
     public ButtonZ() {
         initComponents();
+    }
+
+    public Image getFondo() {
+        return fondo;
+    }
+
+    public void setFondo(Image fondo) {
+        this.fondo = fondo;
+        repaint();
     }
 
     /**
@@ -64,6 +77,18 @@ public class ButtonZ extends JButton {
     private void formMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_formMouseExited
         this.setBackground(new Color(10, 13, 67));
     }//GEN-LAST:event_formMouseExited
+
+    @Override
+    public void paint(Graphics g) {
+        if (fondo != null) {
+            g.drawImage(fondo, 0, 0, getWidth(), getHeight(), this);
+            setOpaque(false);
+        } else {
+            setOpaque(true);
+        }
+        super.paint(g);
+    }
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     // End of variables declaration//GEN-END:variables
