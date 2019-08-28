@@ -21,10 +21,7 @@ public class TableZ extends JTable {
         
     }
     
-    @Override
-    public boolean isCellEditable(int rowIndex,int colIndex){
-        return false;
-    }
+
 
     /**
      * This method is called from within the constructor to initialize the form.
