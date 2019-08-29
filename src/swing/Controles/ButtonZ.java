@@ -82,6 +82,9 @@ public class ButtonZ extends JButton {
     public void paint(Graphics g) {
         if (fondo != null) {
             g.drawImage(fondo, 0, 0, getWidth(), getHeight(), this);
+            setOpaque(false);
+        } else {
+            setOpaque(true);
         }
         super.paint(g);
     }
