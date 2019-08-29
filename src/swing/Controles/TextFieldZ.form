@@ -5,10 +5,23 @@
     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
       <Color blue="a2" green="f7" red="ff" type="rgb"/>
     </Property>
+    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+      <Font name="Roboto" size="18" style="1"/>
+    </Property>
     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-      <Color blue="62" green="20" red="1d" type="rgb"/>
+      <Color blue="80" green="80" id="gray" palette="1" red="80" type="palette"/>
     </Property>
     <Property name="text" type="java.lang.String" value="SAMPLE"/>
+    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+      <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+        <MatteColorBorder bottom="1" left="0" right="0" top="0">
+          <Color PropertyName="color" blue="80" green="80" id="gray" palette="1" red="80" type="palette"/>
+        </MatteColorBorder>
+      </Border>
+    </Property>
+    <Property name="caretColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="80" green="80" id="gray" palette="1" red="80" type="palette"/>
+    </Property>
   </Properties>
   <Events>
     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="formActionPerformed"/>

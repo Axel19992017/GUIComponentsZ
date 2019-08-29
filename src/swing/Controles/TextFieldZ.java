@@ -30,8 +30,11 @@ public class TextFieldZ extends JTextField {
     private void initComponents() {
 
         setBackground(new java.awt.Color(255, 247, 162));
-        setForeground(new java.awt.Color(29, 32, 98));
+        setFont(new java.awt.Font("Roboto", 1, 18)); // NOI18N
+        setForeground(java.awt.Color.gray);
         setText("SAMPLE");
+        setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, java.awt.Color.gray));
+        setCaretColor(java.awt.Color.gray);
         addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 formActionPerformed(evt);

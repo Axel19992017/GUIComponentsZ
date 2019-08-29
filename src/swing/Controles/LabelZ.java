@@ -30,8 +30,8 @@ public class LabelZ extends JLabel {
     private void initComponents() {
 
         setBackground(new java.awt.Color(255, 247, 162));
-        setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
-        setForeground(new java.awt.Color(28, 40, 51));
+        setFont(new java.awt.Font("Roboto", 1, 18)); // NOI18N
+        setForeground(java.awt.Color.gray);
         setText("SAMPLE");
         setOpaque(true);
     }// </editor-fold>//GEN-END:initComponents

@@ -44,7 +44,7 @@ public class ButtonZ extends JButton {
     private void initComponents() {
 
         setBackground(new java.awt.Color(10, 13, 67));
-        setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
+        setFont(new java.awt.Font("Roboto", 1, 18)); // NOI18N
         setForeground(new java.awt.Color(255, 247, 162));
         setText("Sample");
         setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
