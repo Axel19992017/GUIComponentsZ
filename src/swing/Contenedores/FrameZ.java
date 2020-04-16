@@ -93,7 +93,6 @@ public class FrameZ extends JFrame {
 
         pToolBar.setBackground(new java.awt.Color(178, 122, 57));
         pToolBar.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        pToolBar.setForeground(new java.awt.Color(255, 255, 255));
         pToolBar.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseDragged(java.awt.event.MouseEvent evt) {
                 pToolBarMouseDragged(evt);
