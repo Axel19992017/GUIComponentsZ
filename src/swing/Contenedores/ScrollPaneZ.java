@@ -27,8 +27,9 @@ public class ScrollPaneZ extends javax.swing.JScrollPane {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setBackground(new java.awt.Color(255, 247, 162));
-        setForeground(new java.awt.Color(29, 32, 98));
+        setBackground(new java.awt.Color(89, 42, 42));
+        setBorder(null);
+        setForeground(new java.awt.Color(255, 255, 255));
     }// </editor-fold>//GEN-END:initComponents
 
 

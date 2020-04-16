@@ -31,8 +31,8 @@ public class ToolBarz extends JToolBar {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setBackground(new java.awt.Color(127, 179, 213));
-        setForeground(new java.awt.Color(29, 32, 98));
+        setBackground(new java.awt.Color(89, 42, 42));
+        setForeground(new java.awt.Color(255, 255, 255));
     }// </editor-fold>//GEN-END:initComponents
 
 

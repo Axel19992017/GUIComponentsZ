@@ -29,7 +29,8 @@ public class SplitPaneZ extends JSplitPane {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setBackground(new java.awt.Color(255, 247, 162));
+        setBackground(new java.awt.Color(89, 42, 42));
+        setBorder(null);
     }// </editor-fold>//GEN-END:initComponents
 
 

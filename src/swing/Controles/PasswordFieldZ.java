@@ -29,9 +29,11 @@ public class PasswordFieldZ extends JPasswordField {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setBackground(new java.awt.Color(255, 247, 162));
-        setForeground(new java.awt.Color(29, 32, 98));
+        setBackground(new java.awt.Color(89, 24, 24));
+        setForeground(java.awt.Color.white);
         setText("SAMPLE");
+        setEchoChar('\u00a9');
+        setOpaque(true);
     }// </editor-fold>//GEN-END:initComponents
 
 

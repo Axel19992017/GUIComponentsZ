@@ -29,7 +29,10 @@ public class LayeredPane extends JLayeredPane {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        setBackground(new java.awt.Color(89, 42, 42));
         setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        setForeground(java.awt.Color.white);
+        setToolTipText("");
     }// </editor-fold>//GEN-END:initComponents
 
 

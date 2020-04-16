@@ -30,10 +30,11 @@ public class TextAreaZ extends JTextArea {
     private void initComponents() {
 
         setEditable(false);
-        setBackground(new java.awt.Color(255, 247, 162));
-        setForeground(new java.awt.Color(29, 32, 98));
+        setBackground(new java.awt.Color(89, 24, 24));
+        setForeground(java.awt.Color.white);
         setText("SAMPLE");
         setToolTipText("");
+        setOpaque(true);
     }// </editor-fold>//GEN-END:initComponents
 
 

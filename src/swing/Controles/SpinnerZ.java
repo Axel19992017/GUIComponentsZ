@@ -31,6 +31,7 @@ public class SpinnerZ extends JSpinner {
 
         setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
         setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        setOpaque(true);
     }// </editor-fold>//GEN-END:initComponents
 
 

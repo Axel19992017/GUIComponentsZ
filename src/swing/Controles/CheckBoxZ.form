@@ -3,15 +3,16 @@
 <Form version="1.2" maxVersion="1.9">
   <Properties>
     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-      <Color blue="a2" green="f7" red="ff" type="rgb"/>
+      <Color blue="18" green="18" red="59" type="rgb"/>
     </Property>
     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
       <Font name="Dialog" size="11" style="1"/>
     </Property>
     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-      <Color blue="62" green="20" red="1d" type="rgb"/>
+      <Color blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
     </Property>
     <Property name="text" type="java.lang.String" value="SAMPLE"/>
+    <Property name="opaque" type="boolean" value="true"/>
   </Properties>
   <Events>
     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="formActionPerformed"/>

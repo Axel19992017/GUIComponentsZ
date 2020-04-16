@@ -43,9 +43,9 @@ public class ButtonZ extends JButton {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setBackground(new java.awt.Color(10, 13, 67));
+        setBackground(new java.awt.Color(89, 24, 24));
         setFont(new java.awt.Font("Roboto", 1, 12)); // NOI18N
-        setForeground(new java.awt.Color(255, 247, 162));
+        setForeground(new java.awt.Color(255, 255, 255));
         setText("Sample");
         setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));

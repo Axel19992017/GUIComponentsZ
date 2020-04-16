@@ -33,10 +33,11 @@ public class RadioButtonZ extends JRadioButton {
 
         jToolBar1.setRollover(true);
 
-        setBackground(new java.awt.Color(255, 247, 162));
+        setBackground(new java.awt.Color(89, 24, 24));
         setFont(new java.awt.Font("Dialog", 1, 11)); // NOI18N
-        setForeground(new java.awt.Color(29, 32, 98));
+        setForeground(java.awt.Color.white);
         setText("SAMPLE");
+        setOpaque(true);
     }// </editor-fold>//GEN-END:initComponents
 
 
